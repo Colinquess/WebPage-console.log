@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="fullScreen">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="jsonview.bundle.css">
+    <script src='jsonview.bundle.js'></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            background-image: url("predio_corporate_3_1445967106_0.png");
+            background-color: #cccccc;
+        }
+        
+        .consoleDiv {
+            opacity: 80%;
+            position: relative;
+            left: 50%;
+            margin: 0;
+            padding-left: 20px;
+            height: 100%;
+            width: 50%;
+            background: rgba(32, 33, 36, .9)
+        }
+    </style>
+
+</head>
+
+<body class="fullScreen">
+    <div id="consoleDiv" class="consoleDiv">
+    </div>
+</body>
+<script>
+</script>
+
+<script>
+    var aaa = ["awdawdadw", 123, {
+        a: "123",
+        b: 532,
+        c: ["awdawdadw", 123, {
+            a: "123",
+            b: 532,
+            awd: function(...varw) {
+                console.log(varw)
+            }
+        }],
+        d: function(...varw) {
+            console.log(varw)
+        }
+    }, function(...varw) {
+        console.log(varw)
+    }];
+
+
+
+
+
+
+
+
+
+
+
+
+
+    console.log("Um texto muito bonito e normal de console para vocês");
+    console.log(aaa);
+    console.log(123235343);
+    console.log({
+        a: "123",
+        b: 532
+    });
+    console.log([true]);
+
+
+
+
+
+    throw Error("Erro maluco do sistema");
+</script>
+
+</html>
